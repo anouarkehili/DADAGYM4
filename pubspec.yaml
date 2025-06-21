@@ -1,0 +1,50 @@
+name: dada_gym_app
+description: "Gym management app built with Flutter and Dart."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  font_awesome_flutter: any
+  firebase_core: any
+  firebase_auth: any
+  cloud_firestore: any
+  # تصميم وأيقونات
+  cupertino_icons: any
+  google_fonts: any
+
+  # الاتصال بالإنترنت وAPI
+  http: any
+
+  # إدارة الحالة
+  provider: any
+
+  # تخزين بيانات محلي
+  shared_preferences: any
+
+  # توليد وعرض QR
+  qr_flutter: any
+
+  # عرض تحميلات ومؤشرات
+  flutter_spinkit: any
+
+  # تنسيق التاريخ والوقت
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: any
+
+flutter:
+  uses-material-design: true
+
+
+assets:
+    - assets/images/logo.png
+
